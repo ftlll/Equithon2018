@@ -8,14 +8,22 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="jquery-3.3.1.min.js"></script>
+
 <link href="navtab.css" type=text/css rel=stylesheet>
 <link href="navbar.css" type=text/css rel=stylesheet>
 <style type="text/css">#didi {position: absolute; top: 0;}
                        #menu {position: absolute; top: 0 ;right: 0;}
                        #bodydiv{float: left}
-                       .title{text-align:center}</style>
+                       .title{text-align:center}
+                       #start{height: 400px;}
+                       #canvas{background-color: #E8E8E8;
+                        width: 1200px;
+                        height: 450px；
+                        }
+    </style>
 </head>
 <body>
+
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
     <div class="navbar-header">
@@ -74,7 +82,6 @@
         </div>
             <hr>
             <h2 id="section-3" class="title">How to get started?</h2>
-            <div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
@@ -91,10 +98,10 @@
                     </div>
                 </div>
             </div>
-        </div>
             <hr>
             <h2 id="section-4" class="title">Let us know about you!</h2>
-           
+            <canvas id="canvas"></canvas>
+<script src="questionare.js"></script>
             <hr>
             <h2 id="section-5" class="title">Therapist</h2>
            

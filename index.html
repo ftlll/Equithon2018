@@ -8,19 +8,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="jquery-3.3.1.min.js"></script>
-
+<script src="questionare.js"></script>
 <link href="navtab.css" type=text/css rel=stylesheet>
 <link href="navbar.css" type=text/css rel=stylesheet>
-<style type="text/css">#didi {position: absolute; top: 0;}
-                       #menu {position: absolute; top: 0 ;right: 0;}
-                       #bodydiv{float: left}
-                       .title{text-align:center}
-                       #start{height: 400px;}
-                       #canvas{background-color: #E8E8E8;
-                        width: 1200px;
-                        height: 450px；
-                        }
-    </style>
+<link href="question.css" type=text/css rel=stylesheet>
 </head>
 <body>
 
@@ -100,11 +91,23 @@
             </div>
             <hr>
             <h2 id="section-4" class="title">Let us know about you!</h2>
-            <canvas id="canvas"></canvas>
-<script src="questionare.js"></script>
+            <div style="height: 500px; width: 1200px; background-color: #E8E8E8; position: relative;">
+            <div style="height: 400px; width: 600px; background-color: #EEEEEE; position: absolute; top: 50px; left: 300px;">
+             <button id="startb"><strong style="font-size: 40px;">START</strong></button>
+            <label class="q1" style="position: absolute; top: 70px"><strong style="font-size: 30px;">What is your gender?</strong></label>
+            <div id="q1a"><label class="q1"><input type="radio">Female</label></div>
+            <div id="q1b"><label class="q1"><input type="radio">Male</label></div>
+            <div id="q1c"><label class="q1"><input type="radio">Non-binary</label></div>
+            <label class="q2" style="position: absolute; top: 70px"><strong style="font-size: 30px;">How old are you?</strong></label>
+            <div id="q2a"><label class="q2"><input type="number" min="10" max="99" id="age"></label></div>
+            <div id="q2b"><label class="q2"><input type="button" value="submit"></label></div>
+             <label class="q3" style="position: absolute; top: 70px"><strong style="font-size: 20px;">What type of counseling are you looking for?</strong></label>
+            <div id="q3a"><label class="q3"><input type="radio">Individual counseling (for myself)</label></div>
+            <div id="q3b"><label class="q3"><input type="radio">Couple counseling (for myself and my partner)</label></div>
+            </div></div>
+            <script src="questionare.js"></script>
             <hr>
             <h2 id="section-5" class="title">Therapist</h2>
-           
         </div>
     </div>
 </div>

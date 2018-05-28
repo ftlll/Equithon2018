@@ -1,0 +1,68 @@
+#didi {position: absolute; top: 0;}
+#menu {position: absolute; top: 0 ;right: 0;}
+#bodydiv{float: left}
+.title{text-align:center}
+#start{height: 400px;}
+#startb{background: "red";
+        width:200px;
+        height:100px;
+        background: red;
+        position: relative;
+        top: 100px;
+        left: 200px;}
+#q1a{
+	z-index: 100;
+	width: 80px;
+	height: 30px;
+	position: relative;
+	top: 140px;
+	left: 150px;
+}
+#q1b{
+	z-index: 100;
+	width: 80px;
+	height: 30px;
+	position: relative;
+	top: 170px;
+	left: 150px;
+}
+#q1c{
+	z-index: 100;
+	width: 100px;
+	height: 30px;
+	position: relative;
+	top: 200px;
+	left: 150px;
+}
+#q2a{
+	z-index: 99;
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	top: 140px;
+	left: 200px;
+}
+#q2b{
+	z-index: 99;
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	top: 180px;
+	left: 200px;
+}
+#q3a{
+	z-index: 98;
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	top: 140px;
+	left: 200px;
+}
+#q3b{
+	z-index: 98;
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
